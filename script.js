@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statusMessage = document.getElementById('status-message');
 
     // --- CONFIGURAZIONE ---
-    const N8N_WEBHOOK_URL = 'INCOLLA_QUI_IL_TUO_URL_WEBHOOK_N8N'; // <-- CAMBIA QUESTO!
+    const N8N_WEBHOOK_URL = 'https://n8n.gogetalab.duckdns.org:18443/webhook-test/d247d851-104d-4984-a0c9-37b9a1711d1e'; // <-- CAMBIA QUESTO!
     const SHIFT_TYPES = ['Seleziona...', 'Mattina', 'Sera', 'Riposo']; // Aggiungi/modifica i tuoi turni
     const SHIFT_PRESETS = {
         // Definisci orario inizio standard e durata (in ore)
